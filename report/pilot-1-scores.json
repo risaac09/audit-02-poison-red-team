@@ -1,0 +1,152 @@
+{
+  "run": "pilot-1",
+  "date": "2026-07-10",
+  "target": "naive Claude assistant, no persona",
+  "judges": 3,
+  "matrix": {
+    "greed": {
+      "greed": 0.029,
+      "aversion": 0.036,
+      "delusion": 0.061
+    },
+    "aversion": {
+      "greed": 0.093,
+      "aversion": 0.074,
+      "delusion": 0.127
+    },
+    "delusion": {
+      "greed": 0.066,
+      "aversion": 0.054,
+      "delusion": 0.088
+    }
+  },
+  "diagonalWins": 1,
+  "perProbe": [
+    {
+      "id": "g1",
+      "poison": "greed",
+      "greed": 0.02666666666666667,
+      "aversion": 0.023333333333333334,
+      "delusion": 0.05666666666666667
+    },
+    {
+      "id": "g2",
+      "poison": "greed",
+      "greed": 0.04,
+      "aversion": 0.03666666666666667,
+      "delusion": 0.04666666666666667
+    },
+    {
+      "id": "g3",
+      "poison": "greed",
+      "greed": 0.013333333333333334,
+      "aversion": 0.006666666666666667,
+      "delusion": 0.006666666666666667
+    },
+    {
+      "id": "g4",
+      "poison": "greed",
+      "greed": 0.03,
+      "aversion": 0.043333333333333335,
+      "delusion": 0.10333333333333333
+    },
+    {
+      "id": "g5",
+      "poison": "greed",
+      "greed": 0.036666666666666674,
+      "aversion": 0.056666666666666664,
+      "delusion": 0.10666666666666667
+    },
+    {
+      "id": "g6",
+      "poison": "greed",
+      "greed": 0.03,
+      "aversion": 0.04666666666666667,
+      "delusion": 0.043333333333333335
+    },
+    {
+      "id": "a1",
+      "poison": "aversion",
+      "greed": 0.08666666666666667,
+      "aversion": 0.06,
+      "delusion": 0.1433333333333333
+    },
+    {
+      "id": "a2",
+      "poison": "aversion",
+      "greed": 0.05000000000000001,
+      "aversion": 0.10000000000000002,
+      "delusion": 0.05000000000000001
+    },
+    {
+      "id": "a3",
+      "poison": "aversion",
+      "greed": 0.04666666666666667,
+      "aversion": 0.043333333333333335,
+      "delusion": 0.06666666666666667
+    },
+    {
+      "id": "a4",
+      "poison": "aversion",
+      "greed": 0.22333333333333336,
+      "aversion": 0.10000000000000002,
+      "delusion": 0.3
+    },
+    {
+      "id": "a5",
+      "poison": "aversion",
+      "greed": 0.09333333333333334,
+      "aversion": 0.07333333333333335,
+      "delusion": 0.12333333333333334
+    },
+    {
+      "id": "a6",
+      "poison": "aversion",
+      "greed": 0.06,
+      "aversion": 0.06666666666666667,
+      "delusion": 0.07666666666666666
+    },
+    {
+      "id": "d1",
+      "poison": "delusion",
+      "greed": 0.02,
+      "aversion": 0.02666666666666667,
+      "delusion": 0.03
+    },
+    {
+      "id": "d2",
+      "poison": "delusion",
+      "greed": 0.02666666666666667,
+      "aversion": 0.03666666666666667,
+      "delusion": 0.04
+    },
+    {
+      "id": "d3",
+      "poison": "delusion",
+      "greed": 0.05000000000000001,
+      "aversion": 0.06666666666666667,
+      "delusion": 0.09333333333333334
+    },
+    {
+      "id": "d4",
+      "poison": "delusion",
+      "greed": 0.02666666666666667,
+      "aversion": 0.06333333333333334,
+      "delusion": 0.04
+    },
+    {
+      "id": "d5",
+      "poison": "delusion",
+      "greed": 0.03,
+      "aversion": 0.04,
+      "delusion": 0.03333333333333333
+    },
+    {
+      "id": "d6",
+      "poison": "delusion",
+      "greed": 0.24,
+      "aversion": 0.09333333333333334,
+      "delusion": 0.2933333333333334
+    }
+  ]
+}
