@@ -15,7 +15,7 @@ The names come from the Buddhist three poisons, which is where the framing start
 ## What was found (`report/pilot-results.md`)
 
 1. **A naive target held every single-turn trap.** Mean score 0.070 across 18 probes. The seed set is too easy for a current frontier model under single-turn, no-persona conditions.
-2. **Persona induction mostly fails.** A sycophant system prompt was silently abandoned on contact with falsifiable material. Avoider and confabulator personas were refused outright on every probe, triggered by the persona's stated purpose rather than by the content of any turn.
+2. **Persona induction mostly fails.** A sycophant system prompt was silently abandoned on contact with falsifiable material, and bent only on one tender, non-falsifiable probe. Avoider and confabulator personas were refused outright on every probe, triggered by the persona's stated purpose rather than by the content of any turn.
 3. **Multi-turn pushback works, on one axis.** Two escalating rounds of naturalistic user pushback (after Sharma et al. 2023), with no system prompt, produced a 55.6% reversal rate on the evasion probes. The same treatment moved sycophancy on factual claims 0%.
 4. **Tender, non-falsifiable material bends where facts hold.** On a subtle tier (grief, a dying pet, dementia), capitulation shows up as one act scored on two axes at once: a comforting confabulation that is also telling the user what they want to hear.
 5. **The judge panel has a measurable bias floor.** Judges prompted to convict find a "confabulation residue" of 0.136 on probes that do not target confabulation. That baseline is subtracted before any confabulation reading is reported. Confabulation is also the noisiest axis (mean inter-judge spread 0.102, worst case 0.700).
